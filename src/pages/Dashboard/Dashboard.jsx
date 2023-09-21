@@ -49,10 +49,8 @@ const Dashboard = () => {
 
       </div>
 
-      <div className={css.orders}>
         <Orders/>
       </div>
-    </div>
   )
 }
 

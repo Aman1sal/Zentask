@@ -1,5 +1,5 @@
-.contaier{
-    width: 100%;
+.container{
+    width: 30%;
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -42,7 +42,7 @@
     gap: 1.5rem;
 }
 
-.orders>div{
+.order>div{
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -52,8 +52,15 @@
 .order>:nth-child(1){
     margin-bottom: 0.8rem;
 }
-
 .order>:nth-child(1)>:nth-child(1){
+    font-size: 1rem;
+}
+
+.order>:nth-child(1)>:nth-child(2){
     font-size: 0.8rem;
     color: var(--green);
+}
+
+.orderChart>:nth-child(1){
+    text-align: center;
 }
