@@ -87,11 +87,11 @@
     margin: auto;
     display: flex;
     height: 100%;
-    align-items: center;
-    margin-top: -4rem;
+    /* align-items: center; */
+    /* margin-top: 4rem; */
 }
 
 .content>div{
     width: 100%;
-    min-width: 75vh;
+    min-width: 55vw;
 }
